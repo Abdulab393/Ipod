@@ -9,7 +9,7 @@ function OptionList(props) {
     const { options, focusedOption } = props;
     return (
         <div className="option-list">
-            <h1>iPod.js</h1>
+            <h1>iPod.js hello</h1>
             <ul>
                 {options.map((option) => (
                     <Option key={option.id} option={option} focusedOption={focusedOption} />
